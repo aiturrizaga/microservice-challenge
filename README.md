@@ -52,7 +52,7 @@ Realizar dos microservicios, uno para validar las reglas del negocio y el otro p
 *Payload:*
 ```json
 {
-	"id": 4
+	"id": 4,
 	"names": "Antonio",
 	"lastnames": "Diaz Martinez",
 	"birthday": "1989-11-22",

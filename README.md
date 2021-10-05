@@ -27,11 +27,11 @@ Realizar dos microservicios, uno para validar las reglas del negocio y el otro p
 
 > **Nota:** Si desea probar los servicios sin levantar los proyectos puede utilizar los endpoints que ya estan disponibles para probar.
 
-**1) Validar y crear un prestamo**
-*Local endpoint:* `http://localhost:8099/financieraoh-business/v1/loan-validation`
-*Public enpoint:* `https://foh-business-service.herokuapp.com/loan-validation`
-*Method:* `POST`
-*Return:*   `201 - CREATED`
+**1) Validar y crear un prestamo**\
+*Local endpoint:* `http://localhost:8099/financieraoh-business/v1/loan-validation`\
+*Public enpoint:* `https://foh-business-service.herokuapp.com/loan-validation`\
+*Method:* `POST`\
+*Return:*   `201 - CREATED`\
 *Payload:*
 ```json
 {
@@ -44,11 +44,11 @@ Realizar dos microservicios, uno para validar las reglas del negocio y el otro p
 }
 ```
 
-**2) Validar y actualiza un prestamo**
-*Local endpoint:* `http://localhost:8099/financieraoh-business/v1/loan-validation`
-*Public enpoint:* `https://foh-business-service.herokuapp.com/loan-validation`
-*Method:* `PUT`
-*Return:*   `200 - OK`
+**2) Validar y actualiza un prestamo**\
+*Local endpoint:* `http://localhost:8099/financieraoh-business/v1/loan-validation`\
+*Public enpoint:* `https://foh-business-service.herokuapp.com/loan-validation`\
+*Method:* `PUT`\
+*Return:*   `200 - OK`\
 *Payload:*
 ```json
 {
@@ -66,16 +66,16 @@ Realizar dos microservicios, uno para validar las reglas del negocio y el otro p
 *Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans`\
 *Public enpoint:* `https://foh-core-service.herokuapp.com/loans`\
 *Method:* `GET`\
-*Return:*   `200 - OK`\
-
-**4) Obtener prestamo por id**
-*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans/{id}`
-*Public enpoint:* `https://foh-core-service.herokuapp.com/loans/{id}`
-*Method:* `GET`
 *Return:*   `200 - OK`
 
-**4) Eliminar prestamo por id**
-*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans/{id}`
-*Public enpoint:* `https://foh-core-service.herokuapp.com/loans/{id}`
-*Method:* `DELETE`
+**4) Obtener prestamo por id**\
+*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans/{id}`\
+*Public enpoint:* `https://foh-core-service.herokuapp.com/loans/{id}`\
+*Method:* `GET`\
+*Return:*   `200 - OK`
+
+**4) Eliminar prestamo por id**\
+*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans/{id}`\
+*Public enpoint:* `https://foh-core-service.herokuapp.com/loans/{id}`\
+*Method:* `DELETE`\
 *Return:*   `204 - NO CONTENT`

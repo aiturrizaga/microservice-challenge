@@ -1,0 +1,22 @@
+server:
+  port: ${PORT:8099}
+spring:
+  application:
+    name: financieraoh-gateway
+
+eureka:
+  client:
+    service-url:
+      defaultZone: https://foh-eurekaserver.herokuapp.com/eureka/
+
+zuul:
+  host:
+    connect-timeout-millis: 100000
+    socket-timeout-millis: 100000
+  routes:
+    business:
+      path: /financieraoh-business/v1/**
+      service-id: FINANCIERAOH-BUSINESS
+    core:
+      path: /financieraoh-core/v1/**
+      service-id: FINANCIERAOH-CORE

@@ -1,0 +1,24 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: financieraoh-business
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8090/eureka/
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+app:
+  feign-client:
+    core-service: http://localhost:8099/financieraoh-core/v1

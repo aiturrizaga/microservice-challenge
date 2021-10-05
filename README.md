@@ -62,11 +62,11 @@ Realizar dos microservicios, uno para validar las reglas del negocio y el otro p
 }
 ```
 
-**3) Obtener todos los prestamos**
-*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans`
-*Public enpoint:* `https://foh-core-service.herokuapp.com/loans`
-*Method:* `GET`
-*Return:*   `200 - OK`
+**3) Obtener todos los prestamos**\
+*Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans`\
+*Public enpoint:* `https://foh-core-service.herokuapp.com/loans`\
+*Method:* `GET`\
+*Return:*   `200 - OK`\
 
 **4) Obtener prestamo por id**
 *Local endpoint:* `http://localhost:8099/financieraoh-core/v1/loans/{id}`
